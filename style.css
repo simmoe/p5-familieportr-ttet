@@ -21,7 +21,7 @@ body{
     place-items:center;
     position:absolute;
     top:0;
-    left:100vw;
+    left:-100vw;
     transition: .5s ease-in-out;
     transition-delay: .5s;
 }
@@ -111,5 +111,6 @@ button{
     width:5vh;
 }
 #video{
+    height:50vh;
     overflow:hidden;
 }
