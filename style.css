@@ -19,9 +19,9 @@ body{
     display:grid;
     grid-template-rows:1fr 1fr 1fr;
     place-items:center;
-    position:absolute;
+    position:fixed;
     top:0;
-    left:-100vw;
+    left:100vw;
     transition: .5s ease-in-out;
     transition-delay: .5s;
 }
@@ -87,7 +87,7 @@ body{
 #scoreNumber{
     font-size:4rem;
     position:absolute;
-    bottom:1rem;
+    bottom:.5rem;
 }
 
 #wait{
